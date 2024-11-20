@@ -939,7 +939,7 @@ positions and orientations as well as the linear and angular velocities of such 
 
 The semantics of free joints are as follows. The position data is 7 numbers (3D position followed
 by unit quaternion) while the velocity data is 6 numbers (3D linear velocity followed by 3D angular velocity).
-The linear postions of free joints are in the global frame, as are
+The linear positions of free joints are in the global frame, as are
 linear velocities. The orientation of a free joint (the quaternion) is also in the global frame. However, the rotational
 velocities of a free joint are in the local body frame. This is not so much a design decision but rather correct
 use of the topology of quaternions. Angular velocities live in the quaternion tangent space, which is defined locally
